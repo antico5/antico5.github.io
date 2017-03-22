@@ -177,11 +177,13 @@ body {
   text-align: center;
   margin: 20px auto;
   font-size: 60px;
+  img { width: 60px; }
   p {
     font-size: 16px;
   }
   @media only screen and (min-width: $cut) {
     font-size: 75px;
+    img { width: 75px; }
   }
 }
 
