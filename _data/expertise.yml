@@ -1,0 +1,22 @@
+backend: "I've been working with Ruby for about 4 years. I've written many Rails
+  applications but also have experience with other lighter frameworks such as
+  Grape, Sinatra and Cuba.  I've used Redis for caching data and also supporting
+  job queue frameworks as Resque or Sidekiq.  My testing framework of choice is
+  RSpec for most cases, althought for small projects MiniTest will do the job. I
+  try to keep design as simple as possible, following good practices: keeping code
+  DRY, respecting OOP principles, keeping test coverage above 90%, practicing
+  TDD when I feel it's useful."
+
+frontend: "Even thought I am not a pure frontend developer, I have written a
+  fair amount of HTML templates, CSS stylesheets and javascript magic. I prefer
+  to use out-of-the-box solutions like bootstrap and jquery that will get you a
+  nice amount of value for little work. On some projects I've been required to
+  learn React.js and collaborate with the frontend team, which I don't mind. I
+  can cut simple designs and client-side behaviour for small to medium size
+  applications, but I'm not the guy when it comes to flashy animated websites."
+
+tools: "I'm a Linux and Vim user. I spend most of my working hours on my console
+  typing commands and writing code, which I think explains my passion for
+  server-side programming. I enjoy writing my own scripts for automating tasks
+  and save work. This makes life much easier when it comes to dealing with Linux
+  servers, where most real applications run."
