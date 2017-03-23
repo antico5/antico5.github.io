@@ -1,0 +1,24 @@
+-
+  name: Rezli
+  year: 2016
+  image: /assets/img/mountains.jpg
+  skills:
+    - Ruby
+    - Rails
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.
+  url: http://www.rezli.com
+-
+  name: Rezli
+  year: 2016
+  image: /assets/img/mountains.jpg
+  skills:
+    - Ruby
+    - Rails
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.
+  url: http://www.rezli.com
