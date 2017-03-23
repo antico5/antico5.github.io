@@ -6,7 +6,13 @@ description: A software developer site.
 
 # User settings
 username: Armando Andini
-user_description: I'm a passionate software developer who enjoys learning every day and taking opportunities to learn new skills and technologies. I’ve been working on web development professionally for the last couple years, but I’ve coded for fun since I was a kid.  My biggests strengths are my focus on writing clean code, use of good practices and team collaboration. I enjoy working in teams that actively perform code reviews and pair programming.  I’m more of a backend developer, but also enjoy working on the full stack. 
+user_description: "I'm a passionate software developer who enjoys learning
+  every day and taking opportunities to learn new skills and technologies. I’ve
+  been working on web development professionally for the last couple years, but
+  I’ve coded for fun since I was a kid.  My biggests strengths are my focus on
+  writing clean code, use of good practices and team collaboration. I enjoy
+  working in teams that actively perform code reviews and pair programming.
+  I’m more of a backend developer, but also enjoy working on the full stack."
 user_title: Ruby Full Stack Developer
 email: armando.andini@gmail.com
 github_username:  antico5
