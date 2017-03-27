@@ -1,5 +1,6 @@
 $main: #a61601;
 $sec: #4B5664;
+$text-color: #222;
 $purple: #54516A;
 $cut: 768px;
 
@@ -8,6 +9,15 @@ $cut: 768px;
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+      color: $main;
+    }
+  }
 }
 
 @-webkit-keyframes pulse {
@@ -195,26 +205,28 @@ body {
 
 .user-projects {
   margin: 40px auto;
+
   img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
   }
+
   h5 {
     margin: 0;
   }
-  li {
+
+  .role {
+    font-size: 11px;
     color: $main;
-    font-size: 1.1rem;
+    border: 1px solid;
+    padding: 0px 3px;
+    display: inline-block;
+    margin-bottom: 5px;
   }
+
   p {
     margin-right: 5px;
-  }
-}
-
-.images {
-  @media only screen and (min-width: $cut) {
-    float: right;
   }
 }
 
@@ -239,7 +251,7 @@ body {
     border-color: $main;
     color: #fff;
     transition: color 0.3s ease-in,
-                background-color 0.3s ease-in,
+                background-color 0.3s ea se-in,
                 border-color 0.3s ease-in;
   }
   &:active {
