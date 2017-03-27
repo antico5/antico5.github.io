@@ -4,16 +4,15 @@
   </div>
   {% for project in site.data.projects %}
     <div class="row user-projects">
-      <div class="six columns images">
+      <div class="six columns">
         <img alt="mountains" src="{{ project.image | prepend: site.baseurl }}" />
       </div>
       <div class="six columns">
-        <h5> {{ project.name }} </h5>
-        {% for skill in project.skills %}
-          <li>{{ skill }}</li>
-        {% endfor %}
+        <a target="_blank" href="{{ project.url }}">
+          <h5>{{ project.name }}</h5>
+        </a>
+        <div class="role">{{ project.role }}</div>
         <p>{{ project.description }}</p>
-        <a class="project-link" target="_blank" href="{{ project.url }}">Check it out</a>
       </div>
     </div>
   {% endfor %}
