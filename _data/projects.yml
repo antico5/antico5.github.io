@@ -1,24 +1,56 @@
 -
-  name: Rezli
+  name: Rezli.com
   year: 2016
-  image: /assets/img/mountains.jpg
-  skills:
-    - Ruby
-    - Rails
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat.
+  image: /assets/img/rezli.png
+  role: Full Stack Web Developer
+  description: Rezli is a comprehensive content, media and career building
+    platform that empowers people of all ages to turn their passion into a
+    career by building their digital resume/portfolio, sharing their stories and
+    networking with others in the industry as they establish and pursue their
+    dreams.
   url: http://www.rezli.com
 -
-  name: Rezli
+  name: LlamandoAlDoctor.com
   year: 2016
-  image: /assets/img/mountains.jpg
-  skills:
-    - Ruby
-    - Rails
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat.
-  url: http://www.rezli.com
+  role: Ruby on Rails Developer.
+  image: /assets/img/llamandoaldoctor.png
+  description: This application integrates web and mobile to allow patients to
+    contact doctors via video call.  I was in charge of the maintenance and bug
+    fixing of this app.
+  url: http://www.llamandoaldoctor.com
+-
+  name: Likefolio
+  year: 2015
+  role: Ruby Backend Developer
+  image: /assets/img/likefolio.png
+  description: LikeFolio analyzes social network mentions of the brands &
+    products owned by publicly traded (and some privately held) companies. This
+    results in high value information for investment opportunities and bussiness
+    analysis. The LikeFolio mobile app puts a treasure-trove of consumer
+    sentiment and purchase intent data at your fingertips... allowing you to see
+    opportunities that others miss.
+  url: http://www.likefolio.com
+-
+  name: NEBnow Freezer Program
+  year: 2014
+  image: /assets/img/nebnow.jpg
+  role: Ruby Full Stack Developer
+  description: An ambitious IoT project that integrates many laboratory freezers
+    (including scanners, locks, screens and other devices) with a cloud web
+    application. We make extensive use of Xively's MQTT service for the
+    communication.  Each freezer keeps track of its own stock and automatically
+    places orders for the required products.
+  url: https://www.neb.com/freezer-programs
+-
+  name: Texas Instruments Ecosystem demo. CC3100 and CC3200 board connectivity.
+  year: 2014
+  image: /assets/img/ti.jpg
+  role: Ruby on Rails Developer.
+  description: We create a simple, easy to show, and highly portable demo using
+    the CC3100 and CC3200 boards. The aim is that the customers see
+    out-of-the-box, near-instantaneous, bi-direction cloud connectivity to an
+    embedded device, all running over Xively’s latest infrastructure and TI
+    hardware.  Not only are the customers seeing the connectivity, but more
+    importantly they will instantly see how their connected product can be
+    integrated into their business processes.
+  url: http://processors.wiki.ti.com/index.php/CC3100_DEMOS
