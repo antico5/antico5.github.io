@@ -1,0 +1,21 @@
+- name: Active Force
+  url: http://github.com/olvap/active_force/graphs/contributors
+  description: This ruby gem is an ORM library for using Salesforce tables as
+    ActiveRecord models. It uses Restforce below it to provide fast and reliable
+    comunication with the Salesforce API.
+  codeclimate: 4.00
+  coverage: 98%
+- name: Mini MQTT
+  url: http://github.com/antico5/mini_mqtt/graphs/contributors
+  description: A gem of my authorship that fully implements the MQTT protocol on
+    ruby. It provides all services up to QoS 1. The philosophy behind it is to
+    keep the code as minimal and tidy as possible, resulting in 70% less code
+    than similar gems.
+  codeclimate: 4.00
+  coverage: 98%
+- name: Ruby MQTT
+  url: https://github.com/njh/ruby-mqtt/graphs/contributors
+  description: In the past I've made some contributions to this project. It is
+    the most popular ruby gem for MQTT communication.
+  codeclimate: 0.47
+  coverage: N/A

@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="user-details">
+    <h3> Open Source Contributions </h3>
+  </div>
+  {% for project in site.data.open_source %}
+    <div class="row user-project">
+      <div class="two columns">
+        <a href={{ project.url }} target='_blank'>
+          <img class="thumbnail" alt="ruby gem" src="/assets/img/favicon.png" />
+        </a>
+      </div>
+      <div class="six columns">
+        <a target="_blank" href="{{ project.url }}">
+          <h5>{{ project.name }}</h5>
+        </a>
+        <p>{{ project.description }}</p>
+      </div>
+      <div class="two columns centered">
+        <strong>CodeClimate</strong>
+        <div class="codeclimate">
+          {{ project.codeclimate }}
+        </div>
+      </div>
+      <div class="two columns centered">
+        <strong>Coverage</strong>
+        <div class="coverage">
+          {{ project.coverage }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
