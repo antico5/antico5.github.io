@@ -3,10 +3,10 @@
     <h3> Featured Projects </h3>
   </div>
   {% for project in site.data.projects %}
-    <div class="row user-projects">
+    <div class="row user-project">
       <div class="four columns">
         <a href={{ project.url }} target='_blank'>
-          <img alt="mountains" src="{{ project.image | prepend: site.baseurl }}" />
+          <img class="thumbnail" alt="mountains" src="{{ project.image | prepend: site.baseurl }}" />
         </a>
       </div>
       <div class="eight columns">
